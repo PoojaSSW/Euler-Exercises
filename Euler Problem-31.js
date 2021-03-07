@@ -65,9 +65,6 @@ Based on the combination list, I thought of iterating over every currency one by
 
 however I  had to look up to see the DFS wiki page to see possible params it takes for iteration.
 I came up with this:
-Reference:
-https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
-
 
 if (start -  i >= 0 && i <= end) {
          combinations = combinations + getCombinations      (start – i, i);  // recursive function

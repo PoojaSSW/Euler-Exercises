@@ -1,3 +1,4 @@
+/*****
 Problem Statement:
 
 In England the currency is made up of pound, £, and pence, p, and there are eight coins in general circulation:
@@ -71,9 +72,7 @@ https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
 if (start -  i >= 0 && i <= end) {
          combinations = combinations + getCombinations      (start – i, i);  // recursive function
 }
-
-
-Final solution:
+*****/
 function getCombinations(start, end) {
     if (start === 0){
  return 1; // only 1 combination present – i.e with itself
@@ -90,16 +89,3 @@ function getCombinations(start, end) {
     }
     return combinations;
 }
-
-Sources:
-https://en.wikipedia.org/wiki/Depth-first_search
-https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
-
-HackerRank discussion board to check if I was thinking correctly or completely in wrong direction
-
-Sample Out:
-
-https://jsfiddle.net/L2yxh1m3/2/
-
-Time taken:
-~8-10 hours
